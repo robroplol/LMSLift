@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="ia2d20770-5545-40f8-9de0-e21398276011" xmlns="http://www.imsglobal.org/xsd/imsccv1p3/imscp_v1p1" xmlns:lomr="http://ltsc.ieee.org/xsd/imsccv1p3/LOM/resource" xmlns:lomm="http://ltsc.ieee.org/xsd/imsccv1p3/LOM/manifest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ltsc.ieee.org/xsd/imsccv1p3/LOM/resource http://www.imsglobal.org/profile/cc/ccv1p3/LOM/ccv1p3_lomresource_v1p0.xsd http://www.imsglobal.org/xsd/imsccv1p3/imscp_v1p1 http://www.imsglobal.org/profile/cc/ccv1p3/ccv1p3_imscp_v1p2_v1p0.xsd http://ltsc.ieee.org/xsd/imsccv1p3/LOM/manifest http://www.imsglobal.org/profile/cc/ccv1p3/LOM/ccv1p3_lommanifest_v1p0.xsd">
+<metadata>
+<schema>IMS Common Cartridge</schema>
+<schemaversion>1.3.0</schemaversion><lomm:lom>
+<lomm:general>
+<lomm:title>
+<lomm:string language="en-US">Career Planning - MSTR-17a</lomm:string>
+</lomm:title>
+</lomm:general>
+</lomm:lom>
+</metadata>
+<organizations>
+<organization>
+<item identifier="i8314392d-94af-45b5-b9e8-bb11b10098ba" />
+<metadata>
+<lomm:lom />
+</metadata>
+</organization>
+</organizations>
+<resources>
+<resource identifier="resource_1" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_1/resource.xml" />
+</resource>
+<resource identifier="resource_2" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_2/resource.xml" />
+</resource>
+<resource identifier="resource_3" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_3/resource.xml" />
+</resource>
+<resource identifier="resource_4" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_4/resource.xml" />
+</resource>
+<resource identifier="resource_5" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_5/resource.xml" />
+</resource>
+<resource identifier="resource_6" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_6/resource.xml" />
+</resource>
+<resource identifier="resource_7" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_7/resource.xml" />
+</resource>
+<resource identifier="resource_8" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_8/resource.xml" />
+</resource>
+<resource identifier="resource_9" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_9/resource.xml" />
+</resource>
+<resource identifier="resource_10" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_10/resource.xml" />
+</resource>
+<resource identifier="resource_11" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_11/resource.xml" />
+</resource>
+<resource identifier="resource_12" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_12/resource.xml" />
+</resource>
+<resource identifier="resource_13" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_13/resource.xml" />
+</resource>
+<resource identifier="resource_14" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_14/resource.xml" />
+</resource>
+<resource identifier="resource_15" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_15/resource.xml" />
+</resource>
+<resource identifier="resource_16" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_16/resource.xml" />
+</resource>
+<resource identifier="resource_17" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_17/resource.xml" />
+</resource>
+<resource identifier="resource_18" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_18/resource.xml" />
+</resource>
+<resource identifier="resource_19" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_19/resource.xml" />
+</resource>
+<resource identifier="resource_20" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_20/resource.xml" />
+</resource>
+<resource identifier="resource_21" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_21/resource.xml" />
+</resource>
+<resource identifier="resource_22" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_22/resource.xml" />
+</resource>
+<resource identifier="resource_23" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_23/resource.xml" />
+</resource>
+<resource identifier="resource_24" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_24/resource.xml" />
+</resource>
+<resource identifier="resource_25" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_25/resource.xml" />
+</resource>
+<resource identifier="resource_26" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_26/resource.xml" />
+</resource>
+<resource identifier="resource_27" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_27/resource.xml" />
+</resource>
+<resource identifier="resource_28" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_28/resource.xml" />
+</resource>
+<resource identifier="resource_29" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_29/resource.xml" />
+</resource>
+<resource identifier="resource_30" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_30/resource.xml" />
+</resource>
+<resource identifier="resource_31" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_31/resource.xml" />
+</resource>
+<resource identifier="resource_32" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_32/resource.xml" />
+</resource>
+<resource identifier="resource_33" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_33/resource.xml" />
+</resource>
+<resource identifier="resource_34" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_34/resource.xml" />
+</resource>
+<resource identifier="resource_35" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_35/resource.xml" />
+</resource>
+<resource identifier="resource_36" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_36/resource.xml" />
+</resource>
+<resource identifier="resource_37" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_37/resource.xml" />
+</resource>
+<resource identifier="resource_38" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_38/resource.xml" />
+</resource>
+<resource identifier="resource_39" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_39/resource.xml" />
+</resource>
+<resource identifier="resource_40" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_40/resource.xml" />
+</resource>
+<resource identifier="resource_41" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_41/resource.xml" />
+</resource>
+<resource identifier="resource_42" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_42/resource.xml" />
+</resource>
+<resource identifier="resource_43" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_43/resource.xml" />
+</resource>
+<resource identifier="resource_44" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_44/resource.xml" />
+</resource>
+<resource identifier="resource_45" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_45/resource.xml" />
+</resource>
+<resource identifier="resource_46" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_46/resource.xml" />
+</resource>
+<resource identifier="resource_47" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_47/resource.xml" />
+</resource>
+<resource identifier="resource_48" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_48/resource.xml" />
+</resource>
+<resource identifier="resource_49" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_49/resource.xml" />
+</resource>
+<resource identifier="resource_50" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_50/resource.xml" />
+</resource>
+<resource identifier="resource_51" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_51/resource.xml" />
+</resource>
+<resource identifier="resource_52" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_52/resource.xml" />
+</resource>
+<resource identifier="resource_53" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_53/resource.xml" />
+</resource>
+<resource identifier="resource_54" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_54/resource.xml" />
+</resource>
+<resource identifier="resource_55" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_55/resource.xml" />
+</resource>
+<resource identifier="resource_56" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_56/resource.xml" />
+</resource>
+<resource identifier="resource_57" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_57/resource.xml" />
+</resource>
+<resource identifier="resource_58" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_58/resource.xml" />
+</resource>
+<resource identifier="resource_59" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_59/resource.xml" />
+</resource>
+<resource identifier="resource_60" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_60/resource.xml" />
+</resource>
+<resource identifier="resource_61" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_61/resource.xml" />
+</resource>
+<resource identifier="resource_62" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_62/resource.xml" />
+</resource>
+<resource identifier="resource_63" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_63/resource.xml" />
+</resource>
+<resource identifier="resource_64" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_64/resource.xml" />
+</resource>
+<resource identifier="resource_65" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_65/resource.xml" />
+</resource>
+<resource identifier="resource_66" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_66/resource.xml" />
+</resource>
+<resource identifier="resource_67" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_67/resource.xml" />
+</resource>
+<resource identifier="resource_68" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_68/resource.xml" />
+</resource>
+<resource identifier="resource_69" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_69/resource.xml" />
+</resource>
+<resource identifier="resource_70" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_70/resource.xml" />
+</resource>
+<resource identifier="resource_71" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_71/resource.xml" />
+</resource>
+<resource identifier="resource_72" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_72/resource.xml" />
+</resource>
+<resource identifier="resource_73" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_73/resource.xml" />
+</resource>
+<resource identifier="resource_74" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_74/resource.xml" />
+</resource>
+<resource identifier="resource_75" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_75/resource.xml" />
+</resource>
+<resource identifier="resource_76" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_76/resource.xml" />
+</resource>
+<resource identifier="resource_77" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_77/resource.xml" />
+</resource>
+<resource identifier="resource_78" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_78/resource.xml" />
+</resource>
+<resource identifier="resource_79" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_79/resource.xml" />
+</resource>
+<resource identifier="resource_80" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_80/resource.xml" />
+</resource>
+<resource identifier="resource_81" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_81/resource.xml" />
+</resource>
+<resource identifier="resource_82" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_82/resource.xml" />
+</resource>
+<resource identifier="resource_83" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_83/resource.xml" />
+</resource>
+<resource identifier="resource_84" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_84/resource.xml" />
+</resource>
+<resource identifier="resource_85" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_85/resource.xml" />
+</resource>
+<resource identifier="resource_86" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_86/resource.xml" />
+</resource>
+<resource identifier="resource_87" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_87/resource.xml" />
+</resource>
+<resource identifier="resource_88" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_88/resource.xml" />
+</resource>
+<resource identifier="resource_89" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_89/resource.xml" />
+</resource>
+<resource identifier="resource_90" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_90/resource.xml" />
+</resource>
+<resource identifier="resource_91" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_91/resource.xml" />
+</resource>
+<resource identifier="resource_92" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_92/resource.xml" />
+</resource>
+<resource identifier="resource_93" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_93/resource.xml" />
+</resource>
+<resource identifier="resource_94" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_94/resource.xml" />
+</resource>
+<resource identifier="resource_95" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_95/resource.xml" />
+</resource>
+<resource identifier="resource_96" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_96/resource.xml" />
+</resource>
+<resource identifier="resource_97" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_97/resource.xml" />
+</resource>
+<resource identifier="resource_98" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_98/resource.xml" />
+</resource>
+<resource identifier="resource_99" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_99/resource.xml" />
+</resource>
+<resource identifier="resource_100" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_100/resource.xml" />
+</resource>
+<resource identifier="resource_101" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_101/resource.xml" />
+</resource>
+<resource identifier="resource_102" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_102/resource.xml" />
+</resource>
+<resource identifier="resource_103" type="imsbasiclti_xmlv1p3">
+<file href="lti/resource_103/resource.xml" />
+</resource>
+</resources>
+</manifest>
