@@ -7,6 +7,8 @@ use App\Providers\RouteServiceProvider;
 use Illuminate\Auth\Events\Verified;
 use Illuminate\Foundation\Auth\EmailVerificationRequest;
 use Illuminate\Http\RedirectResponse;
+use Illuminate\Support\Facades\Storage;
+
 
 class VerifyEmailController extends Controller
 {
@@ -22,6 +24,11 @@ class VerifyEmailController extends Controller
         if ($request->user()->markEmailAsVerified()) {
             event(new Verified($request->user()));
         }
+
+        // Assume $user is the instance of the newly created user
+        $userDirectory = 'users/' . Auth::id(); // Directory name based on the user's ID
+
+        Storage::disk('local')->makeDirectory($userDirectory);
 
         return redirect()->intended(RouteServiceProvider::HOME.'?verified=1');
     }

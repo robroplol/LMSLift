@@ -18,8 +18,21 @@ class CsvToImscc extends Component
     public $text = '';
     public $displayDownload = false;
 
+   public function createTemporaryDirectory($userId) {
+        $sessionId = session()->getID();
+        $directory = "tmp/{$userId}_{$sessionId}/output/lti/";
+    
+        if (!Storage::exists($directory)) {
+            Storage::makeDirectory($directory); // Creates a directory if it doesn't exist
+        }
+    
+        return $directory;
+    }
+
     public function convert()
     {
+
+        //dd(auth()->id());
        // Validate the uploaded file
        $this->validate([
         'csv' => 'required|file|mimes:csv,txt', 
@@ -28,9 +41,14 @@ class CsvToImscc extends Component
         // Load the CSV file
         $path = $this->csv->getRealPath();
         $data = array_map('str_getcsv', file($path));
+        $sessionId = session()->getID();
+        $userId = auth()->id();
 
+        
         // Skip the header row if your CSV has headers
-        $resourcesDir="output/lti/";
+        $resourcesDir= $this->createTemporaryDirectory($userId);
+
+        //dd($resourcesDir);
         $existingOutput = Storage::allDirectories($resourcesDir);
         foreach ($existingOutput as $directory) {
             Storage::deleteDirectory($directory);
@@ -102,8 +120,8 @@ class CsvToImscc extends Component
 
         // Save the imsmanifest.xml file
         file_put_contents('imsmanifest.xml', $manifestContent);
-        Storage::disk('local')->put('output/imsmanifest.xml', $manifestContent);
-        $this->zipDirectory(storage_path('app/output/'), storage_path('app/cartridge.imscc'));
+        Storage::disk('local')->put('tmp/'. $userId .'_'. $sessionId .'/output/imsmanifest.xml', $manifestContent);
+        $this->zipDirectory(storage_path('app/tmp/' . $userId .'_'. $sessionId . '/output/'), storage_path('app/tmp/' . $userId .'_'. $sessionId . '/cartridge.imscc'));
         $this->displayDownload = true;
     }
 
@@ -138,7 +156,10 @@ class CsvToImscc extends Component
 
     public function download()
     {
-        return Storage::download('cartridge.imscc');
+        $sessionId = session()->getID();
+        $userId = auth()->id();
+        
+        return Storage::download('tmp/' . $userId . '_' . $sessionId . '/cartridge.imscc');
     }
 
     public function render()
