@@ -6,7 +6,7 @@
         <label for="file">Please upload your CSV file here:</label><input type="file" wire:model="csv" name="file" id="">
         @error('csv') <span class="error">{{ $message }}</span> @enderror
 
-        <button type="submit" class="bg-white text-black font-bold hover:bg-slate-300 p-4 rounded-md">Convert</button>
+        <button type="submit" class="bg-white text-black font-bold hover:bg-accent p-4 rounded-md transition duration-150 ease-in-out">Convert</button>
     </form>
    @if ($displayDownload === true)
         <h2><a href="#" wire:click="download">Download Common Cartridge Package</a></h2>

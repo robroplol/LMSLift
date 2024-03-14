@@ -12,21 +12,29 @@ export default {
     theme: {
         extend: {
             fontFamily: {
-                sans: ["Figtree", ...defaultTheme.fontFamily.sans],
+                heading: [
+                    "Montserrat",
+                    "Roboto",
+                    ...defaultTheme.fontFamily.sans,
+                ],
+                body: ["Poppins", "Roboto", ...defaultTheme.fontFamily.sans],
+                logo: [
+                    "Lilita One",
+                    "Montserrat",
+                    "Roboto",
+                    ...defaultTheme.fontFamily.sans,
+                ],
             },
             colors: {
-                "deep-teal": "#093c44",
-                "dark-teal": "#115e6e",
-                "light-teal": "#2f8d98",
-                green: "#b5cd34",
-                orange: "#f7941e",
-                "dark-gray": "#414042",
-                "light-gray": "#6d6e71",
-                "ada-green": "#6a7f17",
-                "ada-orange": "#ac6610",
+                primary: "#ab9ac1",
+                secondary: "#ab9ac1",
+                accent: "#A9D2D5",
+                raisin: "#211A1E",
+                highlight: "#DAA520",
+                charcoal: "#333333",
+                navy: "#000080",
             },
         },
     },
-    darkMode: false,
     plugins: [forms],
 };
